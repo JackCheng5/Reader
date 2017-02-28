@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2d6bb7"
+    tools:context="sunshine.app.com.example.v_caiwch.blindreader.MainActivity">
+
+    <View
+        android:textSize="32sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gesture_listener_view"
+        android:gravity="center"
+        android:background="#61b489"
+        />
+    <!--<Button-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:text="@string/click_me"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:id="@+id/bt_save"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_below="@id/gesture_listener_view"-->
+        <!--android:onClick="save"-->
+        <!--/>-->
+</RelativeLayout>
